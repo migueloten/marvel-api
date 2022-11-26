@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'Marvel';
+    src: url('../fonts/bebas/Bebas-Regular.ttf') format('truetype');
+}
+
+body{
+    margin: 0 !important;
+    padding: 0 !important;
+    background-color: whitesmoke;
+}
+
+.container{
+    max-width: unset !important;
+}
+
+.logoMarvel{
+    font-family: 'Marvel';
+    font-size: 15vw;
+    font-weight: 700;
+    margin: 0;
+    text-shadow: -1px 2px #bcc8d16b;
+    background: -webkit-linear-gradient(45deg, #FFF, #e6eaf1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-image: radial-gradient(#C10F12, #2A0003);
+}
+
+.header img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.input-group input,
+.input-group select{
+    border: 1px solid #2A0003;
+}
+
+.input-group input:focus,
+.input-group select:focus{
+    border: 1px solid #2A0003;
+    box-shadow: 0 0 0 0.2rem #520e0e7e;
+}
+
+.input-group button{
+    border: 1px solid #2A0003;
+    background-color: #2A0003;
+    color: whitesmoke;
+    transition: background-color 1s, color 1s, box-shadow 0.5s;
+}
+
+.input-group button:hover,
+.input-group button:focus,
+.input-group button:active{
+    border: 1px solid #C10F12 !important;
+    background-color: #d67e83 !important;
+    color: #2A0003 !important;
+    box-shadow: 2px 2px #2A0003 !important;
+}
+
+.principal{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: stretch;
+    text-align: start;
+}
+
+.card{
+    transform: skewY(-6deg);
+    border: 10px double whitesmoke;
+    background-color: #2A0003;
+    color: whitesmoke;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.card:hover{
+    background-color: #2a0003e0;
+}
+
+
+.card .card-body{
+    transform: skewY(6deg);
+}
+
+.card .list-group-item{
+    border: solid whitesmoke;
+    border-width: 2px 0;
+    background-color: transparent;
+    transform: skewY(5deg);
+}
+
+.card .list-group-item a{
+    color: #af3c3c;
+}
+
+.btn-load{
+    color: #fff;
+    background-color: #C10F12;
+    border-color: #C10F12;
+}
+
+.btn-load:hover{
+    color: #fff;
+    background-color: #2A0003;
+    border-color: #2A0003;
+}
+
+.btn-load:focus{
+    box-shadow: 0 0 0 0.2rem #520e0e7e;
+}
